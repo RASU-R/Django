@@ -1,0 +1,82 @@
+$blue:rgb(40, 231, 241);
+$red:rgb(240, 41, 41);
+$white:rgb(255,255,255);
+$green:rgb(34, 174, 9);
+$black:rgb(0,0,0);
+$sandal:#777;
+
+@mixin css-color{
+   
+    font-size: 25px;
+    background-color: rgba(240, 136, 51, 0.282)
+}
+.head{
+    @include css-color;
+    color: $red;
+    font-weight: bolder;
+    border:1px solid ;   
+}
+
+.msg-color{
+    @include css-color;
+    font-weight: 50; 
+    color: $sandal
+}
+
+.signuperr{
+    @extend .msg-color;
+    border-radius: 5px;
+    font-style: italic
+
+}
+
+.signinerr{
+    @extend .signuperr;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-class{
+    border:none;  
+    background-color: $red;
+    color: $white;
+    border-radius: 0%;
+    padding: 5px 13px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    
+}
+.btn-class:hover{
+    color: $black;
+}
+.btn{
+    margin-left: 12%;
+}
+
+.center{
+    left: 50%;
+    top: 40%;
+    margin-left: -7%;
+    position: absolute;
+    margin-top: -10%;
+}
+
+.form-control{
+   margin-bottom: 10px;
+   padding-bottom: 20px;
+   position: relative;
+}
+.form-control label{
+    color: $sandal;
+    display: block;
+    margin-bottom: 5px;
+}
+.form-control input{
+    border: solid 2px;
+    border-radius: 4px;
+    display: block;
+    width: 30%;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+}
