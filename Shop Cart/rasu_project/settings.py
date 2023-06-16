@@ -77,12 +77,12 @@ WSGI_APPLICATION = 'rasu_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'django_rasu',
-        'HOST':'localhost',
-        'USER':'bhuvi',
-        'PASSWORD':'bhuvi',
-        'PORT':"3306"
+        'HOST':'dpg-ci619dh8g3n4q9v5dqt0-a',
+        'USER':'rasu',
+        'PASSWORD':'1BxAeVQOWLvi2lSMWDXzOi49jSFC4DmI',
+        'PORT':"5432"
 
         
         
