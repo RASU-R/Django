@@ -1,0 +1,12 @@
+Python - Django Framework
+
+Shop Cart Website - Shopping products in online...
+Register and login into the account...
+
+migrate command:
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+run command:
+python3 manage.py runserver
+
