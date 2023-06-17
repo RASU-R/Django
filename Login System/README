@@ -1,0 +1,12 @@
+Python - Django Framework
+Login System with Email Verification and various Encryption Methods...( Authentication ,Authorization).
+
+migration command:
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+run command:
+python3 manage.py runserver
+
+
+
